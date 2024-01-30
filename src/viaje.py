@@ -1,0 +1,18 @@
+
+print("Calculadora de Gastos de Viaje")
+print("-------------------------------")
+aloja = float(input("Ingrese el costo de alojamiento: "))
+comi = float(input("Ingrese el costo de comidas: "))
+transport = float(input("Ingrese el costo de transporte: "))
+otros = float(input("Ingrese el costo de otros gastos relacionados: "))
+Total= float(aloja + comi+ transport + otros)
+
+print("-------------------")
+print("Detalle de Gastos")
+print("-------------------")
+print(f"Alojamiento: ${aloja:.2f}")
+print(f"Comidas: ${comi:.2f}")
+print(f"Transporte: ${transport:.2f}")
+print(f"Otros gastos: ${otros:.2f}")
+print("-------------------")
+print(f"Total de gastos: ${Total:.2f}")
